@@ -1180,7 +1180,7 @@ char *argv[];
 		strcat(TmpBuf, " ");
 	} else if (strcmp(cmd, "inspect") == 0) {
 		strcat(TmpBuf, "teco -inspect ");
-	} else if (strcmp(cmd, "Make") == 0) {
+	} else if (strcmp(cmd, "tmake") == 0) {
 		strcat(TmpBuf, "make ");
 	}
 	if (argc > 1 || TmpBuf[0] != '\0') {

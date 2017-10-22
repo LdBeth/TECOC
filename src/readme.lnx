@@ -6,7 +6,7 @@ tested to provide this first argument. Typically soft links are used
 to the tecoc executable, however aliases could be used instead. The
 mapping is:
 
-Make  is tecoc make  (note uppercase first letter)
+tmake  is tecoc make  (note uppercase first letter)
 teco  is tecoc teco
 mung  is tecoc mung
 inspect is tecoc teco -inspect
